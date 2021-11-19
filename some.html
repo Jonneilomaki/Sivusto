@@ -7,25 +7,28 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="tyylit.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <style>
-body {
+.kaikki {
+    background-color: azure;
     background-image: url(mtausta.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     
 }
 @media only screen and (min-width: 600px) {
   body { 
-     background-image: url('tausta5.jpg');
+     background-image: url('tausta6.jpg');
      background-size: cover; 
   }
 }
-
 </style>
 </head>
 <body>
-
-      <div class="topnav" id="myTopnav">
+<div class="kaikki">   
+    <div class="topnav" id="myTopnav">
         <a href="index.html">Etusivu</a>
         <a href="mina.html">Minä</a>
         <a href="vapaa.html">Harrastukset ja vapaa-aika</a>
@@ -34,27 +37,32 @@ body {
           <i class="fa fa-bars"></i>
         </a>
       </div>
-        
 
-<div class="jumbotron text-center">
-    <h1>Tervetuloa sivustolleni!</h1>
-  </div>
-    
-  <div class="container">
-    <div class="row1">
-      <div class="col-sm-8">
-        <p>Moi! Nimeni on Jonne Ilomäki. Opiskelen Laureassa IT-Tradenomiksi. <a href="mina.html">Täältä</a> löydät lisää tietoa minusta.</p><br>
-        <p>Harrastuksiini kuuluu jalkapalloilu, kävelyt, elokuvien/sarjojen katselu sekä ajan kulutus tietokoneella. <a href="vapaa.html">Täältä</a> löytyy lisää tietoa mitä puuhailen vapaa-ajallani. </p><br>
-        <p>Mikäli haluat ottaa minuun yhteyttä,<a href="some.html">täältä</a> löytyy eri kanavat joista minut voi tavoittaa.</p> 
+      <div class="jumbotron text-center">
+        <h1>Kanavat, joista minut voi tavoittaa</h1>
       </div>
 
-      <div class="col-sm-4">      
-        <img class="mina" src="jokuvaan.jpg" alt="mina">
+      <div class="container">
+        <div class="row1">
+          <div class="col-sm-12">
+            <h2>Yhteystiedot</h2>
+            <p>Facebook: <a href="https://www.facebook.com/Sieneis">Jonne Ilomäki</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/jonneilomaki/">@jonneilomaki</a></p>
+            <p>Sähköposti: jonne.ilomaki@student.laurea.fi / jonne.ilomaki@gmail.com</p>
+            <p>Puh.numero: xxx-xxxxxxx</p>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <script>
+    </div> 
+
+
+
+
+
+
+
+<script>
     function myFunction() {
       var x = document.getElementById("myTopnav");
       if (x.className === "topnav") {
@@ -64,7 +72,4 @@ body {
       }
     }
     </script>
-
-
-  
 </body>
